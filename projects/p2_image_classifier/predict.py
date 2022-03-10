@@ -14,7 +14,6 @@ def parse_args():
 
     parser.add_argument('image', type=str)
     parser.add_argument('model', type=str)
-    # require top_k to be 1 <= k <= len(...something ha)
     parser.add_argument('--top_k', default=1, type=int)
     parser.add_argument('--category_names', type=str, default=None)
 
