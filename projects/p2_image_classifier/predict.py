@@ -43,7 +43,7 @@ def labels_to_name(labels, category_names):
             class_names = json.load(f)
         names = []
         for label in labels:
-            names.append(class_names[str(label)]) 
+            names.append(class_names[str(label+1)]) 
         labels = names
     return labels
 
